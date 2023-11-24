@@ -1,0 +1,17 @@
+let a = 10;
+let rest = a % 2;
+
+if (rest === 0) {
+	console.log('делится нацело');
+} else {
+	console.log('делится с остатком ' + rest);
+}
+
+let b = 10;
+let rest1 = a % 3;
+
+if (rest1 === 0) {
+	console.log('делится нацело');
+} else {
+	console.log('делится с остатком ' + rest);
+}
